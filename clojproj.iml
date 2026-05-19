@@ -28,7 +28,7 @@
     <orderEntry type="library" name="Leiningen: instaparse:1.4.8" level="project" />
     <orderEntry type="library" name="Leiningen: nrepl:1.0.0" level="project" />
     <orderEntry type="library" name="Leiningen: org.apache.commons/commons-fileupload2-core:2.0.0-M4" level="project" />
-    <orderEntry type="library" name="Leiningen: org.clojure/clojure:1.12.4" level="project" />
+    <orderEntry type="library" name="Leiningen: org.clojure/clojure:1.12.5" level="project" />
     <orderEntry type="library" name="Leiningen: org.clojure/core.specs.alpha:0.4.74" level="project" />
     <orderEntry type="library" name="Leiningen: org.clojure/spec.alpha:0.5.238" level="project" />
     <orderEntry type="library" name="Leiningen: org.clojure/tools.macro:0.2.1" level="project" />
