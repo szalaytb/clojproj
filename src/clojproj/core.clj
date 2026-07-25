@@ -19,10 +19,18 @@
                 [:head
                  [:title "Simple Page"]
                  (include-css "style.css")
-                 (include-css "pure-min.css")]
+                 (include-css "pure-min.css")
+                 [:script {:src "/js/javascript.js"}]]
                 [:body
                  [:h1 "Hello from Clojure!"]
-                 [:p "This is a simple one-page Ring/Jetty/Compojure/Hiccup app."]]]))
+                 [:p "This is a simple one-page Ring/Jetty/Compojure/Hiccup app."]
+                 [:button {:text "Trigger hello function from Javascript"
+                           :class "pure-button"
+                           :value "Trigger"
+                           :title "Trigger hello function from Javascript"
+                           :onclick "hello()"}
+                           "Trigger"]
+                 ]]))
            (route/resources "/")
            (route/not-found "Not Found"))
 
